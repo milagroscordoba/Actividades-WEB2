@@ -1,0 +1,15 @@
+1-¿Qué tipo de proceso realiza fetch()?
+El metodo fetch() realiza un proceso asíncrono de recuperación de datos, generalmente mediante una solicitud HTTP
+a un recurso o servidor. Su función es obtener una respuesta y permitir el acceso a los datos recibidos.
+
+2-¿Por qué es asíncrono?
+Es asíncrono porque las operaciones de red pueden tardar un tiempo impredecible debido a la comunicación con el servidor. 
+Si fetch() fuera síncrono, bloquearía el hilo principal de ejecución de JavaScript mientras espera la respuesta, 
+lo que podría impedir que la página continúe funcionando con normalidad. Al ser asíncrono, permite que la página siga 
+funcionando mientras espera la respuesta.
+
+3-¿Qué protocolo utiliza en este caso?
+En este caso, el metodo fetch() utiliza el protocolo HTTP o su versión segura HTTPS.
+
+4-¿Cuál es el URL completo al recurso productos.json? 
+recursos/datos/productos.json
